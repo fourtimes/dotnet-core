@@ -108,6 +108,36 @@ namespace demo
 }
 Output: //  You are not male and tall.
 ```
+**_Function method with if condition_**
+```cs
+using System;
 
+namespace demo
+{
+    class Program 
+    {
+        static void Main()
+        {
+            Console.WriteLine(GetMax(10000,10001));
+        }
 
+        static int GetMax(int num1, int num2)
+        {
+            int result;
+            if (num1>num2)
+            {
+                result = num1;
+            }
+            else
+            {
+                result = num2;
+            }
+            return result;
+        }
+
+    }
+}
+
+Output: // 10001
+```
 
