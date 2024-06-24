@@ -57,31 +57,21 @@ namespace demo
     {
         static void Main()
         {
-            bool isMale = false;
-            bool isTall = false;
+         bool isMale = true;
 
-            if (isMale && isTall)
+            if (isMale)
             {
-                Console.WriteLine("He is a tall male.");
-            } 
-            else if (isMale && !isTall)
-            {
-                Console.WriteLine("He is a male. but not tall.");
-            }
-            else if(!isMale && isTall)
-            {
-                Console.WriteLine("You are not male. but you are tall.");
+                Console.WriteLine( "he is an male");
             }
             else
             {
-                Console.WriteLine("You are not male and tall.");
+                Console.WriteLine( "he is an not male");
             }
-        }
-
+        } 
     }
 }
 
-Output: //  he is an not male
+Output: //  he is an male
 ```
 **_If elseif statement_**
 ```cs
