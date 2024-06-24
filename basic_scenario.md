@@ -47,3 +47,31 @@ namespace demo
 Output: //  25
 ```
 
+**_If statement_**
+```cs
+using System;
+
+namespace demo
+{
+    class Program 
+    {
+        static void Main()
+        {
+            bool isMale = false;
+
+            if (isMale)
+            {
+                Console.WriteLine( "he is an male");
+            }
+            else
+            {
+                Console.WriteLine( "he is an not male");
+            }
+        }
+
+    }
+}
+
+Output: //  he is an not male
+```
+
