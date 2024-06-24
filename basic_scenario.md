@@ -43,5 +43,7 @@ namespace demo
 
     }
 }
+
+Output: //  25
 ```
 
