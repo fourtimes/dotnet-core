@@ -47,7 +47,7 @@ namespace demo
 Output: //  25
 ```
 
-**_If statement_**
+**_If Else statement_**
 ```cs
 using System;
 
