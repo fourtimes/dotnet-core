@@ -47,7 +47,43 @@ namespace demo
 Output: //  25
 ```
 
-**_If Else statement_**
+**_If else statement_**
+```cs
+using System;  // .net framework
+
+namespace demo
+{
+    class Program 
+    {
+        static void Main()
+        {
+            bool isMale = false;
+            bool isTall = false;
+
+            if (isMale && isTall)
+            {
+                Console.WriteLine("He is a tall male.");
+            } 
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("He is a male. but not tall.");
+            }
+            else if(!isMale && isTall)
+            {
+                Console.WriteLine("You are not male. but you are tall.");
+            }
+            else
+            {
+                Console.WriteLine("You are not male and tall.");
+            }
+        }
+
+    }
+}
+
+Output: //  he is an not male
+```
+**_If elseif statement_**
 ```cs
 using System;
 
@@ -58,20 +94,29 @@ namespace demo
         static void Main()
         {
             bool isMale = false;
+            bool isTall = false;
 
-            if (isMale)
+            if (isMale && isTall)
             {
-                Console.WriteLine( "he is an male");
+                Console.WriteLine("He is a tall male.");
+            } 
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("He is a male. but not tall.");
+            }else if(!isMale && isTall)
+            {
+                Console.WriteLine("You are not male. but you are tall.");
             }
             else
             {
-                Console.WriteLine( "he is an not male");
+                Console.WriteLine("You are not male and tall.");
             }
         }
 
     }
 }
-
-Output: //  he is an not male
+Output: //  You are not male and tall.
 ```
+
+
 
