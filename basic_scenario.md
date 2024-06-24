@@ -57,7 +57,7 @@ namespace demo
     {
         static void Main()
         {
-         bool isMale = true;
+            bool isMale = true;
 
             if (isMale)
             {
@@ -93,7 +93,8 @@ namespace demo
             else if (isMale && !isTall)
             {
                 Console.WriteLine("He is a male. but not tall.");
-            }else if(!isMale && isTall)
+            }
+            else if(!isMale && isTall)
             {
                 Console.WriteLine("You are not male. but you are tall.");
             }
