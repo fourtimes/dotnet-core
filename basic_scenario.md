@@ -178,3 +178,7 @@ namespace demo
 Output: // 10001
 ```
 
+**_Switch statement_**
+```cs
+
+```
