@@ -124,7 +124,7 @@ namespace demo
         static int GetMax(int num1, int num2)
         {
             int result;
-            if (num1>num2)
+            if (num1 > num2)
             {
                 result = num1;
             }
