@@ -108,7 +108,44 @@ namespace demo
 }
 Output: //  You are not male and tall.
 ```
-**_Function method with if condition_**
+```cs
+using System;
+
+namespace demo
+{
+    class Program 
+    {
+        static void Main()
+        {
+            Console.Write("Enter your first number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter your Operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter your another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if ( op == "+" )
+            {
+                Console.WriteLine(num1 + num2);
+            }else if (op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            }else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            }else if (op == "/")
+            {
+                Console.WriteLine(num1 / num2);
+            }else {
+                Console.WriteLine ("some input values not correct");
+            }
+        }
+    }
+}
+```
+**_Function method with if else condition_**
 ```cs
 using System;
 
